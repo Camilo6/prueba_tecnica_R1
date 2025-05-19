@@ -24,7 +24,7 @@ prueba_tecnica_R1/
 │   ├── autores.xlsx
 │   └── libros.xlsx
 │
-├── crear_bd_mysql.sql          # Script para crear la BD y las tablas
+├── crear_bd_mysql.sql
 ├── etl_carga_autores_libros.py
 └── README.md
 ```
