@@ -25,7 +25,7 @@ prueba_tecnica_R1/
 │   └── libros.xlsx
 │
 ├── crear_bd_mysql.sql
-├── etl_carga_autores_libros.py
+├── etl_carga_data.py
 └── README.md
 ```
 
