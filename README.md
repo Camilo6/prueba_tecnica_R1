@@ -18,13 +18,21 @@ Este repositorio contiene el desarrollo de una ETL usando Python y una base de d
 ## Estructura del proyecto
 
 prueba_tecnica_R1/
+
 │
+
 ├── data/
+
 │ ├── autores.xlsx
+
 │ └── libros.xlsx
+
 │
+
 ├── crear_bd_mysql.sql # Script para crear la BD y las tablas
+
 ├── etl_carga_autores_libros.py
+
 └── README.md
 
 
