@@ -1,8 +1,8 @@
-# 🧪 Prueba Técnica R1 - ETL con Python y MySQL
+# Prueba Técnica R1 - ETL con Python y MySQL
 
 Este repositorio contiene el desarrollo de una ETL usando Python y una base de datos MySQL local, cumpliendo con los siguientes requerimientos técnicos:
 
-## 📋 Requisitos cumplidos
+## Requisitos 
 
 1. **Base de datos local**: `python_test` creada en MySQL (XAMPP).
 2. **Tablas relacionadas**: `autor` y `libro`, relacionadas por la columna `id_autor`.
@@ -13,12 +13,35 @@ Este repositorio contiene el desarrollo de una ETL usando Python y una base de d
 
 ---
 
-## ⚙️ Requisitos previos
+---
 
-Antes de ejecutar el script, asegúrate de tener instalado:
+## Estructura del proyecto
 
-- Python 3.x
-- MySQL (se recomienda usar XAMPP)
-- Librerías de Python:
-  ```bash
-  pip install pandas pymysql openpyxl
+prueba_tecnica_R1/
+│
+├── data/
+│ ├── autores.xlsx
+│ └── libros.xlsx
+│
+├── crear_bd_mysql.sql # Script para crear la BD y las tablas
+├── etl_carga_autores_libros.py
+└── README.md
+
+
+---
+
+## Requisitos previos
+
+### Software necesario
+
+- Python 3.x instalado
+- XAMPP o MySQL local en funcionamiento
+- Git (opcional, si deseas clonar el repositorio directamente)
+
+### Librerías de Python
+
+Instálalas con pip:
+
+```bash
+pip install pandas pymysql openpyxl
+
